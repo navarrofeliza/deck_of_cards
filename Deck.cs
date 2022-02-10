@@ -1,6 +1,6 @@
 namespace DeckOfCards
 {
-    class Deck{
+    public class Deck{
         public int[] val = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
         public string[] stringVal = new string[] {"ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
         public string[] suit = new string[] {"Clubs", "Spades", "Hearts", "Diamonds"};

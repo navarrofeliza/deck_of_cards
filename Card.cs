@@ -1,19 +1,23 @@
 namespace DeckOfCards
 {
-    class Card
+    public class Card
     {
-        public string cardValue;
-        public string cardSuit;
-        public int val;
-        public Card(string suit, string value, int number)
+        public string Name {get; set;}
+        public string Suit {get; set;}
+        public int Value {get; set;}
+        public Card(string name, string suit, int value)
         {
-            cardValue = value;
-            cardSuit = suit;
-            val = number;
+            Name = name;
+            Suit = suit;
+            Value = value;
         }
         public override string ToString()
         {
-            return cardValue + "of" + cardSuit;
+            return $@"
+    Name: {Name}
+    Suite: {Suit}
+    Value: {Value}
+    ";
         }
     }
 }

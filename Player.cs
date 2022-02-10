@@ -1,7 +1,6 @@
+namespace DeckOfCards{
 
-namespace DeckofCards{
-
-    class Player
+    public class Player
     {
         public string name;
         public List<Card> hand = new List<Card>(); 
